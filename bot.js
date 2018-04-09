@@ -849,7 +849,7 @@ client.on('message', msg => {
             msg.channel.send('p!catch ' + pokemonList[i]);
 			k = 0;
           for (i = 0; i <= 68; i++) {
-                if (pokemonList[i] === Legends[i]) {
+                if (pokemonList[n] === Legends[i]) {
                     msg.channel.send(`<@133830755192143872> You've caught a Legend! ${Legends[i]}`);
                 }
             }
