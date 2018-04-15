@@ -824,7 +824,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
 
-    if (msg.embeds.length > 0 && msg.channel.id === "425631070600298498") {
+    if (msg.embeds.length > 0 && msg.channel.id === "435114159609348097") {
 
         let link = msg.embeds[0].image.url;
         let dotSeparator = link.split(".");
